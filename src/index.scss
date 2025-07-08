@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.screen {
+  @apply flex flex-col;
+  @apply min-h-screen;
+
+  &-body {
+    @apply flex flex-row flex-1;
+
+    &-content {
+      @apply flex flex-col flex-1;
+      @apply overflow-y-auto;
+
+      @apply bg-red-500;
+    }
+  }
+}

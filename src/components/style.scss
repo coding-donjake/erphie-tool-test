@@ -1,0 +1,28 @@
+.navigation {
+  @apply flex flex-row;
+  @apply p-4;
+  @apply text-2xl;
+  @apply bg-purple-800 text-white;
+
+  .logo {
+    @apply select-none;
+
+    font-family: "Lilita One", sans-serif;
+  }
+
+  .menu {
+    @apply flex flex-row gap-2;
+    @apply ml-auto;
+
+    li {
+      @apply list-none cursor-pointer;
+    }
+  }
+}
+
+.panel-left {
+  @apply flex flex-col;
+  @apply w-56 p-4;
+
+  @apply bg-neutral-200 text-white;
+}
